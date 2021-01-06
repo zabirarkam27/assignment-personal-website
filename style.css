@@ -85,12 +85,6 @@ h2{
     height: 100%;
     max-width: 100%
 }
-.fourth-part{
-    background-image: url(images/bg-four.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
-}
 .work-inquiry{
     color: rgb(245, 245, 251);
     font-size: 35px;
@@ -101,68 +95,47 @@ h2{
     text-align: right;
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(60deg, rgb(250, 92, 0), rgb(250, 175, 0));
+    background-image: linear-gradient(45deg, rgb(250, 92, 0), rgb(250, 175, 0));
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: 750;
-    
 }
 .right{
-
     text-align: right;
 }
-.allin{
-   float: left;
-   padding: 10px;
-}   
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ex{
-    padding-left: 40px;
-    font-size: 30px;  
-}
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding: 10px;
-    text-align: justify;
-    background-color: #ffffff;
-}
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 230px;
-    padding: 15px;
-}
-.experience-area{
-    background-image: url(images/exp-bg.png);
+.fourth-part{
+    background-image: url(images/bg-four.png);
     background-repeat: no-repeat;
-    background-position: left;
+    height: 100px;
+    background-position: center;
+    margin: 100px 200px;
+    border-radius: 15px;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(17, 13, 224), rgb(162, 172, 231));
-    border-image-slice: 1 ;
+#WORK-INQUIRY{
+    padding-left: 50px;
+    color: rgb(245, 245, 251);
+    font-size: 35px;
+    float: left;
 }
-#baby{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(216, 56, 16), rgb(231, 164, 143));
-    border-image-slice: 2 ;
+.btn{
+    width: 20%;
+    float: right;
+    padding-top: 40px;
+}
+.footer{
+    height: 80px;
 }
 footer{
     text-align: center;
-    color: gray;
-    font-size: 12px;
+    color: rgb(105, 103, 103);
+    font-size: 18px;
+}
+footer img{
+    height: 30px;
+}
+.hero{
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    font-weight: 600;
+    font-size: 35px;
 }

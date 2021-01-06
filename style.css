@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 section{
-    height: 500px;
+    height: 700px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -63,7 +63,7 @@ h2{
     font-family: inherit;
 }
 .working-project{
-    height: 350px;
+    height: 80%;
     width: 25%;
     float: left;
     margin-left: 5%;
@@ -73,21 +73,42 @@ h2{
     border-radius: 15px;
 }
 .button{
-    padding: 0;
+    padding: 1px;
     margin: 0;
-    height: 50%;
+    height: 75%;
     width: 100%;
     position: relative;
-    border: none;
     border-radius: 15px;
-    }
-#bt1{
-    background-image: url(images/image 4.png);
-    
+    transition-duration: .60s;
 }
-
-
-
+#bt1{
+    height: 100%;
+    max-width: 100%
+}
+.fourth-part{
+    background-image: url(images/bg-four.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+.work-inquiry{
+    color: rgb(245, 245, 251);
+    font-size: 35px;
+    padding-left: 25%;
+    padding-top: 300px;
+}
+.chat-button{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(60deg, rgb(250, 92, 0), rgb(250, 175, 0));
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 750;
+}
+.right{
+    text-align: right;
+}
 
 
 
@@ -134,7 +155,7 @@ h2{
     border-image: linear-gradient(180deg, rgb(216, 56, 16), rgb(231, 164, 143));
     border-image-slice: 2 ;
 }
-footer p{
+footer{
     text-align: center;
     color: gray;
     font-size: 12px;

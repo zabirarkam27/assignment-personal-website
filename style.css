@@ -105,10 +105,16 @@ h2{
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 750;
+    
 }
 .right{
+
     text-align: right;
 }
+.allin{
+   float: left;
+   padding: 10px;
+}   
 
 
 
